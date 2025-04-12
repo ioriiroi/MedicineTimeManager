@@ -57,6 +57,16 @@ class MedicineListsController < ApplicationController
     end
   end
 
+  # 次までの時間の更新
+  def update_timestamp
+    @medicine_list = MedicineList.find(params[:id])
+    if @medicine_list.touch # updated_at を現在時刻に更新
+      redirect_to medicine_lists_path, notice: "次までの時間を更新しました"
+    else
+      redirect_to medicine_lists_path, alert: "時間の更新に失敗しました"
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_medicine_list

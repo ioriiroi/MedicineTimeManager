@@ -10,18 +10,21 @@
   </p>
 
   <p>
-    <strong>Memo:</strong>
+    <strong>メモ:</strong>
     <%= medicine_list.memo %>
   </p>
 
   <p>
-    <strong>次まで:</strong>
+    <strong>次まであと</strong>
     <% diff = medicine_list.updated_at + (medicine_list.interval.hour * 60 * 60) + (medicine_list.interval.min * 60) - Time.now %>
     <% if diff > 0 %>
-      <%= Time.at(diff).strftime('%X') %>
+      <%= Time.at(diff).utc.strftime('%X') %>
     <% else %>
       <%= "00:00:00" %>
     <% end %>
+    <%= button_to "飲んだ", update_timestamp_medicine_list_path(medicine_list), method: :put %>
+    <%= button_to "編集", edit_medicine_list_path(medicine_list), method: :get %>
+    <%= button_to "削除する", medicine_list, method: :delete %>
   </p>
 
 </div>
