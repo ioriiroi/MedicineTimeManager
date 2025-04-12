@@ -1,17 +1,27 @@
 <div id="<%= dom_id medicine_list %>">
   <p>
-    <strong>Medicinename:</strong>
+    <strong>薬品名:</strong>
     <%= medicine_list.medicineName %>
   </p>
 
   <p>
-    <strong>Interval:</strong>
-    <%= medicine_list.interval %>
+    <strong>間隔:</strong>
+    <%= Time.at(medicine_list.interval).strftime('%X') %>
   </p>
 
   <p>
     <strong>Memo:</strong>
     <%= medicine_list.memo %>
+  </p>
+
+  <p>
+    <strong>次まで:</strong>
+    <% diff = medicine_list.updated_at + (medicine_list.interval.hour * 60 * 60) + (medicine_list.interval.min * 60) - Time.now %>
+    <% if diff > 0 %>
+      <%= Time.at(diff).strftime('%X') %>
+    <% else %>
+      <%= "00:00:00" %>
+    <% end %>
   </p>
 
 </div>
