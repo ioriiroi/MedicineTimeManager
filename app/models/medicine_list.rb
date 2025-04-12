@@ -1,0 +1,2 @@
+class MedicineList < ApplicationRecord
+end
