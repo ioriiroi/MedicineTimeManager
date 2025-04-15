@@ -1,2 +1,0 @@
-module MedicineListsHelper
-end
