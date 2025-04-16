@@ -2,6 +2,10 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+const Timer = dynamic(() => import("./timer"), {
+	ssr: false,
+});
 
 type Medicine = {
   id: number;
@@ -17,9 +21,10 @@ type Medicine = {
 
 const Medicines = () => {
   const [medicines, setMedicines] = useState<Medicine[]>([]);
+  let num:number = 0;
 
   useEffect(() => {
-    fetch("http://localhost:3000/medicines.json")
+    fetch("http://localhost:3000/api/medicines")
         .then((response) => response.json())
         .then((medicines) => setMedicines(medicines))
         .catch((error) => console.error("Error fetching medicines:", error));
@@ -41,6 +46,7 @@ const Medicines = () => {
           </li>
       ))}
       </ul>
+      <Timer num={0} />
   </div>
   );
 };
