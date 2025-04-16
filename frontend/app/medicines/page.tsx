@@ -3,16 +3,16 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-const Timer = dynamic(() => import("./timer"), {
+const TimeDiff = dynamic(() => import("./timer"), {
 	ssr: false,
 });
 
 type Medicine = {
   id: number;
   name: string;
-  hour: Int16Array;
-  minute: Int16Array;
-  second: Int16Array;
+  hour: number;
+  minute: number;
+  second: number;
   memo: string;
   created_at: string;
   updated_at: string;
@@ -43,10 +43,10 @@ const Medicines = () => {
             <p>Memo: {medicine.memo}</p>
             <p>Created at: {medicine.created_at}</p>
             <p>Updated at: {medicine.updated_at}</p>
+            <p>残り: <TimeDiff hour={medicine.hour} minute={medicine.minute} second={medicine.second} update_at={medicine.updated_at}/></p>
           </li>
       ))}
       </ul>
-      <Timer num={0} />
   </div>
   );
 };
