@@ -1,30 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import client from "@/app/medicines/client/client";
+import client from "../lib/client";
 import dynamic from "next/dynamic";
+import { Medicine } from "../lib/interface";
+
 const TimeDiff = dynamic(() => import("./timer"), {
 	ssr: false,
 });
 
-type Medicine = {
-  id: number;
-  name: string;
-  hour: number;
-  minute: number;
-  second: number;
-  memo: string;
-  created_at: string;
-  updated_at: string;
-  url: string;
-};
-
 const Medicines = () => {
   const [medicines, setMedicines] = useState<Medicine[]>([]);
 
+  // APIからデータを取得
   const getMedicines = async () => {
     try {
       const response = await client.get("medicines");
+      // リクエスト成功時
       if (response.status === 200) {
         setMedicines(response.data);
       } else {
@@ -35,7 +27,9 @@ const Medicines = () => {
     }
   }
 
-  getMedicines();
+  useEffect(() => {
+    getMedicines();
+  }, []);
 
   return (
   <div>

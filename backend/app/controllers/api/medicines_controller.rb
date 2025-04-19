@@ -26,10 +26,8 @@ class Api::MedicinesController < ApplicationController
   
       respond_to do |format|
         if @medicine.save
-          format.html { redirect_to @medicine, notice: "Medicine was successfully created." }
           format.json { render :show, status: :created, location: @medicine }
         else
-          format.html { render :new, status: :unprocessable_entity }
           format.json { render json: @medicine.errors, status: :unprocessable_entity }
         end
       end
