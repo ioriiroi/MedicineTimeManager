@@ -6184,3 +6184,1159 @@ Processing by Api::MedicinesController#index as */*
 Completed 200 OK in 251ms (Views: 3.3ms | ActiveRecord: 193.6ms (1 query, 0 cached) | GC: 105.8ms)
 
 
+Started GET "/api/medicines" for ::1 at 2025-04-19 14:41:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (39.7ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 239ms (Views: 36.1ms | ActiveRecord: 92.5ms (1 query, 0 cached) | GC: 30.9ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:45 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 51ms (Views: 3.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 6.9ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:45 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:45 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.5ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.7ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.8ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.4ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 41ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:46 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 2.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.6ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.4ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.5ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.7ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:47 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 2.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.8ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:48 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.7ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 5.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 3.7ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.4ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.7ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.4ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.7ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 53ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 2.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 35ms (Views: 1.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.4ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:50 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.4ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.7ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 2.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:51 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.5ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 41ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.9ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.8ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 40ms (Views: 3.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 1.6ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 40ms (Views: 2.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 1.1ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:52 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.7ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 40ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 44ms (Views: 1.7ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 39ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 40ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:53 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 2.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 37ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 36ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.2ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 40ms (Views: 1.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.8ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 42ms (Views: 1.5ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-19 14:41:54 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 44ms (Views: 1.4ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+

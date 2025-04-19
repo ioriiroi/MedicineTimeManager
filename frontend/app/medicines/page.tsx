@@ -1,7 +1,7 @@
 "use client";
 
-import axios from "axios";
 import { useEffect, useState } from "react";
+import client from "@/app/medicines/client/client";
 import dynamic from "next/dynamic";
 const TimeDiff = dynamic(() => import("./timer"), {
 	ssr: false,
@@ -21,16 +21,21 @@ type Medicine = {
 
 const Medicines = () => {
   const [medicines, setMedicines] = useState<Medicine[]>([]);
-  let num:number = 0;
 
-  useEffect(() => {
-    fetch("http://localhost:3000/api/medicines")
-        .then((response) => response.json())
-        .then((medicines) => setMedicines(medicines))
-        .catch((error) => console.error("Error fetching medicines:", error));
-    }, []);
+  const getMedicines = async () => {
+    try {
+      const response = await client.get("medicines");
+      if (response.status === 200) {
+        setMedicines(response.data);
+      } else {
+        console.log("Error fetching medicines");
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
-  console.log(medicines);
+  getMedicines();
 
   return (
   <div>
