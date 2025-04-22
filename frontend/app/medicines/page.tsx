@@ -38,7 +38,7 @@ const Medicines = () => {
       {medicines.map((medicine) => (
           <li key={medicine.id}>
             <h2>{medicine.name}</h2>
-            <p>Time: {`${medicine.hour}:${medicine.minute}:${medicine.second}`}</p>
+            <p>Time: {`${medicine.hour.toString().padStart(2, "0")}:${medicine.minute.toString().padStart(2, "0")}:${medicine.second.toString().padStart(2, "0")}`}</p>
             <p>Memo: {medicine.memo}</p>
             <p>Created at: {medicine.created_at}</p>
             <p>Updated at: {medicine.updated_at}</p>

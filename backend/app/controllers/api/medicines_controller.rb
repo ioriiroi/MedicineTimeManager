@@ -24,12 +24,10 @@ class Api::MedicinesController < ApplicationController
     def create
       @medicine = Medicine.new(medicine_params)
   
-      respond_to do |format|
-        if @medicine.save
-          format.json { render :show, status: :created, location: @medicine }
-        else
-          format.json { render json: @medicine.errors, status: :unprocessable_entity }
-        end
+      if @medicine.save
+        render json: @medicine, status: :created
+      else
+        render json: @medicine.errors, status: :unprocessable_entity
       end
     end
   
@@ -64,6 +62,6 @@ class Api::MedicinesController < ApplicationController
   
       # Only allow a list of trusted parameters through.
       def medicine_params
-        params.expect(medicine: [ :name, :hour, :minute, :second, :memo ])
+        params.require(:medicine).permit(:name, :hour, :minute, :second, :memo)
       end
   end

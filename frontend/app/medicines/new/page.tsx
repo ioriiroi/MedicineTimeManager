@@ -3,7 +3,7 @@
 import { Medicine } from "../../lib/interface";
 import { useForm } from "react-hook-form";
 import client from "../../lib/client";
-//import header from "../../lib/header";
+import header from "../../lib/header";
 
 const MakeNewTask = () => {
     const {
@@ -11,18 +11,14 @@ const MakeNewTask = () => {
         handleSubmit,
         formState: { errors },
     } = useForm<Medicine>({mode: "onChange"});
-
-    const header = {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization"
-    }
-
+    
     // ボタンを押した時にAPIにPOSTリクエストを送信
     const onSubmit = async (data: Medicine) => {
         try {
             const response = await client.post("medicines", data, {headers: header});
+            if (response.status === 201) {
+                alert("作成しました");
+            }
         } catch (error) {
             console.log(error);
         };

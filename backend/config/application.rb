@@ -19,6 +19,7 @@ module MedicineTimeManager
     config.time_zone = 'Tokyo'
 
     Rails.application.config.hosts << "http://localhost:3001"
+    config.api_only = true
 
     # Configuration for the application, engines, and railties goes here.
     #
