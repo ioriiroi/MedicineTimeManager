@@ -21,7 +21,7 @@ const MakeNewTask = () => {
             const response = await client.post("medicines", data, {headers: header});
             if (response.status === 201) {
                 alert("作成しました");
-                router.push("/medicines");
+                router.push("/medicines"); // 作成後にリダイレクト
             }
         } catch (error) {
             console.log(error);

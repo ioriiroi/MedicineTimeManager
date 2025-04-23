@@ -46,11 +46,10 @@ class Api::MedicinesController < ApplicationController
   
     # DELETE /medicines/1 or /medicines/1.json
     def destroy
-      @medicine.destroy!
-  
-      respond_to do |format|
-        format.html { redirect_to medicines_path, status: :see_other, notice: "Medicine was successfully destroyed." }
-        format.json { head :no_content }
+      if @medicine.destroy
+        render json: { message: "Medicine was successfully destroyed." }, status: :ok
+      else
+        render json: { error: "Failed to destroy medicine." }, status: :unprocessable_entity
       end
     end
   
