@@ -7833,3 +7833,46 @@ Processing by Api::MedicinesController#index as HTML
 Completed 200 OK in 74ms (Views: 21.7ms | ActiveRecord: 2.7ms (1 query, 0 cached) | GC: 16.7ms)
 
 
+Started POST "/api/medicines" for 127.0.0.1 at 2025-04-22 17:55:21 +0900
+Processing by Api::MedicinesController#create as HTML
+  Parameters: {"name"=>"リダイレクト確認", "hour"=>"0", "minute"=>"3", "second"=>"0", "memo"=>"リダイレクト", "medicine"=>{"name"=>"リダイレクト確認", "hour"=>"0", "minute"=>"3", "second"=>"0", "memo"=>"リダイレクト"}}
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mBEGIN /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+  [1m[36mMedicine Create (10.1ms)[0m  [1m[32mINSERT INTO "medicines" ("name", "hour", "minute", "second", "memo", "created_at", "updated_at") VALUES ('リダイレクト確認', 0, 3, 0, 'リダイレクト', '2025-04-22 08:55:21.675369', '2025-04-22 08:55:21.675369') RETURNING "id" /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+Completed 201 Created in 125ms (Views: 1.8ms | ActiveRecord: 13.5ms (1 query, 0 cached) | GC: 27.0ms)
+
+
+Started POST "/api/medicines" for 127.0.0.1 at 2025-04-22 17:56:49 +0900
+Processing by Api::MedicinesController#create as HTML
+  Parameters: {"name"=>"リダイレクト確認", "hour"=>"0", "minute"=>"3", "second"=>"0", "memo"=>"リダイレクト", "medicine"=>{"name"=>"リダイレクト確認", "hour"=>"0", "minute"=>"3", "second"=>"0", "memo"=>"リダイレクト"}}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+  [1m[36mMedicine Create (10.8ms)[0m  [1m[32mINSERT INTO "medicines" ("name", "hour", "minute", "second", "memo", "created_at", "updated_at") VALUES ('リダイレクト確認', 0, 3, 0, 'リダイレクト', '2025-04-22 08:56:49.937596', '2025-04-22 08:56:49.937596') RETURNING "id" /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+Completed 201 Created in 91ms (Views: 1.6ms | ActiveRecord: 13.0ms (1 query, 0 cached) | GC: 2.4ms)
+
+
+Started POST "/api/medicines" for 127.0.0.1 at 2025-04-23 19:35:53 +0900
+Processing by Api::MedicinesController#create as HTML
+  Parameters: {"name"=>"リダイレクト確認", "hour"=>"0", "minute"=>"3", "second"=>"0", "memo"=>"リダイレクト", "medicine"=>{"name"=>"リダイレクト確認", "hour"=>"0", "minute"=>"3", "second"=>"0", "memo"=>"リダイレクト"}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+  [1m[36mMedicine Create (74.5ms)[0m  [1m[32mINSERT INTO "medicines" ("name", "hour", "minute", "second", "memo", "created_at", "updated_at") VALUES ('リダイレクト確認', 0, 3, 0, 'リダイレクト', '2025-04-23 10:35:54.363456', '2025-04-23 10:35:54.363456') RETURNING "id" /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:27:in `create'
+Completed 201 Created in 583ms (Views: 10.2ms | ActiveRecord: 149.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-23 19:35:56 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (1.7ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 102ms (Views: 31.4ms | ActiveRecord: 1.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+

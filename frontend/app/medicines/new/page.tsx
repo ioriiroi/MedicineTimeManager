@@ -2,6 +2,7 @@
 
 import { Medicine } from "../../lib/interface";
 import { useForm } from "react-hook-form";
+import { useRouter } from "next/navigation";
 import client from "../../lib/client";
 import header from "../../lib/header";
 
@@ -11,6 +12,8 @@ const MakeNewTask = () => {
         handleSubmit,
         formState: { errors },
     } = useForm<Medicine>({mode: "onChange"});
+
+    const router = useRouter();
     
     // ボタンを押した時にAPIにPOSTリクエストを送信
     const onSubmit = async (data: Medicine) => {
@@ -18,6 +21,7 @@ const MakeNewTask = () => {
             const response = await client.post("medicines", data, {headers: header});
             if (response.status === 201) {
                 alert("作成しました");
+                router.push("/medicines");
             }
         } catch (error) {
             console.log(error);
