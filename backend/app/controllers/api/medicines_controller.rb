@@ -9,6 +9,7 @@ class Api::MedicinesController < ApplicationController
   
     # GET /medicines/1 or /medicines/1.json
     def show
+      render json: @medicine
     end
   
     # GET /medicines/new
@@ -33,14 +34,10 @@ class Api::MedicinesController < ApplicationController
   
     # PATCH/PUT /medicines/1 or /medicines/1.json
     def update
-      respond_to do |format|
-        if @medicine.update(medicine_params)
-          format.html { redirect_to @medicine, notice: "Medicine was successfully updated." }
-          format.json { render :show, status: :ok, location: @medicine }
-        else
-          format.html { render :edit, status: :unprocessable_entity }
-          format.json { render json: @medicine.errors, status: :unprocessable_entity }
-        end
+      if @medicine.update(medicine_params)
+        render json: @medicine, status: :ok
+      else
+        render json: @medicine.errors, status: :unprocessable_entity
       end
     end
   
@@ -56,7 +53,7 @@ class Api::MedicinesController < ApplicationController
     private
       # Use callbacks to share common setup or constraints between actions.
       def set_medicine
-        @medicine = Medicine.find(params.expect(:id))
+        @medicine = Medicine.find(params[:id])
       end
   
       # Only allow a list of trusted parameters through.

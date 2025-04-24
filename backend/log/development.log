@@ -8875,3 +8875,229 @@ Processing by Api::MedicinesController#index as HTML
 Completed 200 OK in 41ms (Views: 1.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
 
 
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 15:51:31 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (8.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (59.9ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 245ms (Views: -6.6ms | ActiveRecord: 101.6ms (1 query, 0 cached) | GC: 14.7ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 15:53:42 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (1.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 61ms (Views: 12.2ms | ActiveRecord: 1.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:09:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (43.0ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 203ms (Views: 7.1ms | ActiveRecord: 70.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines/3/edit" for 127.0.0.1 at 2025-04-24 16:09:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/api/medicines/3/edit"):
+  
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines/3/edit" for 127.0.0.1 at 2025-04-24 16:14:08 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/medicines/3/edit"):
+  
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines/3/edit" for 127.0.0.1 at 2025-04-24 16:14:49 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/medicines/3/edit"):
+  
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines/3/edit" for 127.0.0.1 at 2025-04-24 16:15:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/medicines/3/edit"):
+  
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines/3" for 127.0.0.1 at 2025-04-24 16:17:49 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+Processing by Api::MedicinesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMedicine Load (3.1ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 3 LIMIT 1 /*action='show',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:57:in `set_medicine'
+Completed 200 OK in 201ms (Views: 0.9ms | ActiveRecord: 56.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PUT "/api/medicines/3" for 127.0.0.1 at 2025-04-24 16:18:08 +0900
+Processing by Api::MedicinesController#update as HTML
+  Parameters: {"name"=>"アポトキシン4869", "hour"=>"0", "minute"=>2, "second"=>3, "memo"=>"体が縮んでしまっていた...!", "id"=>"3", "medicine"=>{"name"=>"アポトキシン4869", "hour"=>"0", "minute"=>2, "second"=>3, "memo"=>"体が縮んでしまっていた...!"}}
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 3 LIMIT 1 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+  [1m[36mMedicine Update (17.2ms)[0m  [1m[33mUPDATE "medicines" SET "hour" = 0, "updated_at" = '2025-04-24 07:18:09.109944' WHERE "medicines"."id" = 3 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 27.9ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ArgumentError (Unrecognized status code :updated):
+  
+app/controllers/api/medicines_controller.rb:38:in `update'
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:18:27 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.6ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 47ms (Views: 1.6ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+[dotenv] Set [36mFRONTEND_URL[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:20:45 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='MedicineTimeManager'*/[0m
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (39.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 181ms (Views: 5.3ms | ActiveRecord: 58.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines/3" for 127.0.0.1 at 2025-04-24 16:20:47 +0900
+Processing by Api::MedicinesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMedicine Load (0.6ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 3 LIMIT 1 /*action='show',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+Completed 200 OK in 60ms (Views: 0.2ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PUT "/api/medicines/3" for 127.0.0.1 at 2025-04-24 16:20:51 +0900
+Processing by Api::MedicinesController#update as HTML
+  Parameters: {"name"=>"アポトキシン4869", "hour"=>0, "minute"=>"1", "second"=>3, "memo"=>"体が縮んでしまっていた...!", "id"=>"3", "medicine"=>{"name"=>"アポトキシン4869", "hour"=>0, "minute"=>"1", "second"=>3, "memo"=>"体が縮んでしまっていた...!"}}
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 3 LIMIT 1 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+  [1m[36mMedicine Update (1.6ms)[0m  [1m[33mUPDATE "medicines" SET "minute" = 1, "updated_at" = '2025-04-24 07:20:51.233287' WHERE "medicines"."id" = 3 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+Completed 200 OK in 48ms (Views: 0.3ms | ActiveRecord: 2.5ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:21:13 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 82ms (Views: 2.7ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:22:07 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (1.6ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 65ms (Views: 11.9ms | ActiveRecord: 1.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines/3" for 127.0.0.1 at 2025-04-24 16:22:09 +0900
+Processing by Api::MedicinesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMedicine Load (0.6ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 3 LIMIT 1 /*action='show',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+Completed 200 OK in 63ms (Views: 0.4ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PUT "/api/medicines/3" for 127.0.0.1 at 2025-04-24 16:22:11 +0900
+Processing by Api::MedicinesController#update as HTML
+  Parameters: {"name"=>"アポトキシン4869", "hour"=>0, "minute"=>1, "second"=>3, "memo"=>"体が縮んでしまっていた...!", "id"=>"3", "medicine"=>{"name"=>"アポトキシン4869", "hour"=>0, "minute"=>1, "second"=>3, "memo"=>"体が縮んでしまっていた...!"}}
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 3 LIMIT 1 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+Completed 200 OK in 60ms (Views: 1.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:22:13 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.5ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 40ms (Views: 2.3ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:23:10 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (1.5ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 93ms (Views: 24.4ms | ActiveRecord: 1.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/medicines" for 127.0.0.1 at 2025-04-24 16:23:40 +0900
+Processing by Api::MedicinesController#create as HTML
+  Parameters: {"name"=>"updateテスト", "hour"=>"0", "minute"=>"10", "second"=>"0", "memo"=>"a", "medicine"=>{"name"=>"updateテスト", "hour"=>"0", "minute"=>"10", "second"=>"0", "memo"=>"a"}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:28:in `create'
+  [1m[36mMedicine Create (25.9ms)[0m  [1m[32mINSERT INTO "medicines" ("name", "hour", "minute", "second", "memo", "created_at", "updated_at") VALUES ('updateテスト', 0, 10, 0, 'a', '2025-04-24 07:23:40.760054', '2025-04-24 07:23:40.760054') RETURNING "id" /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:28:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT /*action='create',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:28:in `create'
+Completed 201 Created in 255ms (Views: 0.3ms | ActiveRecord: 26.9ms (1 query, 0 cached) | GC: 96.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:23:42 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 45ms (Views: 2.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/medicines/42" for 127.0.0.1 at 2025-04-24 16:23:44 +0900
+Processing by Api::MedicinesController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mMedicine Load (0.5ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 42 LIMIT 1 /*action='show',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+Completed 200 OK in 51ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 2.3ms)
+
+
+Started PUT "/api/medicines/42" for 127.0.0.1 at 2025-04-24 16:23:47 +0900
+Processing by Api::MedicinesController#update as HTML
+  Parameters: {"name"=>"updateテスト", "hour"=>0, "minute"=>10, "second"=>0, "memo"=>"", "id"=>"42", "medicine"=>{"name"=>"updateテスト", "hour"=>0, "minute"=>10, "second"=>0, "memo"=>""}}
+  [1m[36mMedicine Load (0.4ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 42 LIMIT 1 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+  [1m[36mMedicine Update (1.2ms)[0m  [1m[33mUPDATE "medicines" SET "memo" = '', "updated_at" = '2025-04-24 07:23:47.760815' WHERE "medicines"."id" = 42 /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT /*action='update',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:37:in `update'
+Completed 200 OK in 48ms (Views: 0.3ms | ActiveRecord: 2.3ms (2 queries, 0 cached) | GC: 2.3ms)
+
+
+Started GET "/api/medicines" for 127.0.0.1 at 2025-04-24 16:23:49 +0900
+Processing by Api::MedicinesController#index as HTML
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" /*action='index',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:7:in `index'
+Completed 200 OK in 38ms (Views: 1.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started DELETE "/api/medicines/42" for 127.0.0.1 at 2025-04-24 16:23:56 +0900
+Processing by Api::MedicinesController#destroy as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mMedicine Load (0.3ms)[0m  [1m[34mSELECT "medicines".* FROM "medicines" WHERE "medicines"."id" = 42 LIMIT 1 /*action='destroy',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:56:in `set_medicine'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='destroy',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:46:in `destroy'
+  [1m[36mMedicine Destroy (0.9ms)[0m  [1m[31mDELETE FROM "medicines" WHERE "medicines"."id" = 42 /*action='destroy',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:46:in `destroy'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT /*action='destroy',application='MedicineTimeManager',controller='medicines'*/[0m
+  ↳ app/controllers/api/medicines_controller.rb:46:in `destroy'
+Completed 200 OK in 44ms (Views: 0.1ms | ActiveRecord: 1.6ms (2 queries, 0 cached) | GC: 1.9ms)
+
+

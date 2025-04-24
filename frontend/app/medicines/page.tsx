@@ -38,7 +38,7 @@ const Medicines = () => {
 			// リクエスト成功時
 			if (response.status === 200) {
 				alert("削除しました");
-				getMedicines();
+				setMedicines((prev) => prev.filter((medicine) => medicine.id !== id));
 			} else {
 				console.log("Error deleting medicines");
 			}
@@ -56,6 +56,7 @@ const Medicines = () => {
 	return (
 		<div>
 			<h1>Medicines</h1>
+			<button onClick={() => router.push("/medicines/new")}>新規作成</button>
 			<ul>
 				{medicines.map((medicine) => (
 					<li key={medicine.id}>
@@ -79,6 +80,9 @@ const Medicines = () => {
 							/>
 						</p>
 						<button onClick={() => destroyMedicines(medicine.id)}>削除</button>
+						<button onClick={() => router.push("/medicines/edit/" + medicine.id)}>
+							編集
+						</button>
 					</li>
 				))}
 			</ul>
