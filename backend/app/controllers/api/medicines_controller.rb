@@ -26,7 +26,7 @@ class Api::MedicinesController < ApplicationController
       @medicine = Medicine.new(medicine_params)
   
       if @medicine.save
-        render json: @medicine, status: :created
+        render json: @medicine, status: :ok
       else
         render json: @medicine.errors, status: :unprocessable_entity
       end

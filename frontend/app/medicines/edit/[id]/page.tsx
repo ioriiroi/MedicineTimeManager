@@ -18,13 +18,11 @@ const EditTask = () => {
 	const router = useRouter();
 	const params = useParams();
 
-	const [medicine, setMedicines] = useState<Medicine>();
-
 	const getPostId = async () => {
 		try {
 			const response = await client.get("medicines/" + params.id);
+			// リクエスト成功時、初期値としてデータをセット
 			if (response.status == 200) {
-				setMedicines(response.data);
 				setValue("name", response.data.name);
 				setValue("hour", response.data.hour);
 				setValue("minute", response.data.minute);
@@ -79,7 +77,7 @@ const EditTask = () => {
 					/>
 				</div>
 				<div>
-					<label htmlFor="second">分</label>
+					<label htmlFor="second">秒</label>
 					<input
 						type="number"
 						id="second"
